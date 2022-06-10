@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galos story</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1> Adelmo galos de fibra story </h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Cadastro</h2>
+                <form action="obrigado.html">
+                    <!--Essa é uma tag de formulario-->
+
+                    <div>
+                        <!-- o input ele é do tipo inline. Então essa div serve para separar a linha; -->
+                        <label for="ctrl-name">Nome</label>
+                        <!-- O id do input no label serve para que as ferramentas se reconheçam, sabendo qual "id pertecente ao label"; -->
+
+                        <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome">
+                        <!-- Esse input deixa uma menssagem dizendo o tipo de dado a ser inserido; -->
+                        <!-- O atributo name tambem é muito importante; -->
+                    </div>
+
+                    <div>
+                        <label for="ctrl-email">Email</label>
+                        <input id="ctrl-email" name="email" type="email" placeholder="Digite seu email">
+                    </div>
+
+                    <div>
+                        <label for="ctrl-password">Senha</label>
+                        <input id="ctrl-password" type="password" name="password" placeholder="Digite a senha">
+                    </div>
+
+                    <div>
+                        <label for="ctrl-city">Quebrada</label>
+                        <select name="city" id="ctrl-city">
+                            <!-- Esse select serve para selecionar algum dado -->
+                            <option value="0">Selecionar</option>
+                            <option value="1">Cidade tiradentes</option>
+                            <option value="2">Jardim Buriti</option>
+                            <option value="3">Jardim Tres Marias</option>
+                            <option value="4">Panatal</option>
+                            <option value="5">São mateus</option>
+                            <option value="6">Vila Edina</option>
+                            <!-- Essas são as opções de seleção -->
+                            <!-- O value="Seria o codigo armazenado no banco de dados" -->
+
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="ctrl-level">Escolaridade</label>
+
+                        <div id="ctrl-level">
+                            <input type="radio" name="level" id="ctrl-level-1">
+                            <label for="ctrl-level-1">Fundamental</label>
+                            <input type="radio" name="level" id="ctrl-level-2">
+                            <label for="ctrl-level-2">Médio</label>
+                            <input type="radio" name="level" id="ctrl-level-3">
+                            <label for="ctrl-level-3">Superior</label>
+                        </div>
+
+                    </div>
+
+                    <label for="ctrl-races">Raças de galos que você conhece</label>
+
+                    <div id="ctrl-races">
+                        <input type="checkbox" id="ctrl-races-bode" name="race-1">
+                        <label for="ctrl-races-bode">Bóde</label>
+                        <input id="ctrl-races-barrigueiros" type="checkbox" name="race-2">
+                        <label for="ctrl-races-barrigueiros">Barrigueiro</label>
+                        <input id="ctrl-races-caboco" type="checkbox" name="race-3">
+                        <label for="ctrl-races-caboco">Caboco</label>
+                    </div>
+
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Apagar tudo">
+                    <!-- Esse input é para se submeter a enviar o formulario; -->
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

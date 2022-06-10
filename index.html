@@ -1,0 +1,134 @@
+<!doctype html>
+<!-- <!doctype html> indica que é HTML5  -->
+
+<html lang="en">
+<!--Tags HTML podem possuir parametros e argumentos como esse lang="en" que indica que a pagina esta em ingles-->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta informações, sevem para o navegado entender melhor meu documento -->
+    <!-- <meta charset="UTF-8"> é a codificação de caracteries   -->
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adelmo</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Cabeçalho do site. Fica nó inicio do site contendo a sessões de navegação do conteúdo página do site -->
+        <nav>
+            <!-- Divisão de conteúdo de navegação  -->
+            <h1>Site adelmo galos de fibra</h1>
+            <!--Titulo nivel 1-->
+
+            <ul>
+                <!-- Lista não ordenada; -->
+
+                <li><a href="#categories"> Categorias</a></li>
+                <li><a href="#titles"> Titulos </a></li>
+                <li><a href="#about"> Sobre nós</a></li>
+                <!-- lista Com Links -->
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <!-- Categoria, Titulos , Sobre-nos. São sessões da minha pagina e elas fazem parte do corpo principal da minha pagina  -->
+        <section id="categories">
+            <!-- Delimitando as sessões do site -->
+
+            <h2>Categorias</h2>
+
+            <ul>
+                <li>Barrigueiro</li>
+                <li>Bode</li>
+                <li>Cabocó</li>
+            </ul>
+        </section>
+
+        <section id="titles">
+            <h2>Titulos</h2>
+
+            <div>
+                <!-- div é uma sessão do tipo genérico -->
+
+                <img src="img/Barrigueiro.jpg" alt=" Galo Barrigueiro">
+
+            </div>
+            <!--Acessando a sub pasta img e o conteudo com a /. Esse alt="" serve para colocar um texto alternativo caso a imagem não seja carregada-->
+
+            <div>
+                <h3>Galo barrigueiro</h3>
+                <p>Um das minhas melhores linhagens.</p>
+                <p>R$ 450,50</p>
+            </div>
+
+            <div>
+                <img src="img/BODE.jpg" alt="Galo Bode">
+            </div>
+
+            <div>
+                <img src="img/caboco.jpg" alt="Galo caboco">
+            </div>
+                <h3>Galo Bode</h3>
+                <p>Da geração da minha galinha frenteira bode.</p>
+                <p>R$ 980,50</p>
+            </div>
+
+            <div>
+
+            <div>
+                <h3>Galo Cabocão</h3>
+                <p>Esse galo é campeão de 5 brigans consecutivas. Um ótimo ivestimento.</p>
+                <p>R$ 430,60</p>
+            </div>
+
+        </section>
+
+        <section id="about">
+
+            <h2>Sobre nos</h2>
+
+            <h3>O que fazemos</h3>
+            <p>Esse site foi criado na intenção de ajudar galistas de todo o Brasil a ter uma raça pura e campeá de
+                rinha.</p>
+
+            <h3>Saiba mais </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jrviqe13JzE"
+                title="Veja com detalhes a nossa raça" frameborder="10"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <!-- Essa tag serve para incorporar conteúdos de outras páginas-->
+        </section>
+    </main>
+
+    <footer>
+        <!-- footer é a divisão do rodapé do site-->
+
+        <div>
+            <div>
+                <h2>Siga-nos</h2>
+                <a href="https://www.youtube.com/channel/UCxiI1FZaltMpxeE-ahQys9A">Youtube</a>
+                <a href="https://www.instagram.com">Instagram</a>
+            </div>
+
+            <div>
+                <h2>Entre em contato</h2>
+                <address>
+                    <!-- Essa tag é responsavel por indica ao navegador os dados de endereço etc... -->
+                    Escreva para nosso <a href="mailto:adelmo.agdf@gmail.com">email</a>.<br>
+                    Até a proxima!
+                </address>
+            </div>
+        </div>
+
+    </footer>
+    <!--
+A tag span tambem é uma tag de sessão generica. So que ela serve para de dividir o conteúdo em linha
+-->
+
+</body>
+
+</html>
