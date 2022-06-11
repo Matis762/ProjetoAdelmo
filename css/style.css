@@ -1,0 +1,30 @@
+h1 {
+    color: rebeccapurple;
+}
+
+h2 {
+    color: brown;
+}
+
+.color-orange:hover {
+    color: orange;
+}
+
+.card img {
+    /* Esse card que conter um img dentro vai. Deve conter essas propriedades; */
+    width: 350px;
+    height: 350px;
+    border: 5px solid bisque;
+    margin: 10px 40px 20px 30px;
+    /* As propriedades serão aplicadas no sentido horario, estando o primeiro elemento no topo;*/
+
+    padding: 10px;
+    /* pedding é o espaçamento entre a borda e o conteudo */
+    /* inspensionar elementos no navegador para uma visão ampla*/
+}
+
+h1:hover {
+    /* houver para quando mouse estiver descansando em cima do h1 */
+    color: rgb(203, 173, 234);
+    cursor: pointer;
+}
